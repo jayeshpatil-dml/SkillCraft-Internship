@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect */
+a:hover {
+  color: yellow;
+}
+
+/* Sections */
+.hero {
+  margin-top: 80px;
+  text-align: center;
+  padding: 50px;
+  background: lightblue;
+}
+
+.about {
+  text-align: center;
+  padding: 50px;
+}
